@@ -1,8 +1,9 @@
 /*請貼上fackbook初始化的相關程式碼*/
 /*https://developers.facebook.com/*/
- window.fbAsyncInit = function() {
+<script>
+  window.fbAsyncInit = function() {
     FB.init({
-      appId      : '838463579536966',
+      appId      : '655372501230961',
       xfbml      : true,
       version    : 'v2.3'
     });
@@ -15,6 +16,4 @@
      js.src = "//connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
-
-
-
+</script>
